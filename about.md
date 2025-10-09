@@ -20,3 +20,29 @@ By connecting educators, researchers, and learners statewide,
 MCC is building a sustainable network to train the next generation of 
 computer scientists and computing teachers who will drive innovation 
 and opportunity across Big Sky Country.
+
+### Team
+
+[**Dr. Brittany Fasy, (PI)**](https://www.cs.montana.edu/directory/1812041/brittany-fasy). 
+Associate Professor, School of Computing at Montana State University (MSU)
+
+[**Dr. Brendan Mumey, (Co-PI)**](https://www.cs.montana.edu/directory/1524423/brendan-mumey). 
+Professor, School of Computing at MSU
+
+[**Dr. Binhai Zhu, (Co-PI)**](https://www.cs.montana.edu/directory/1524789/binhai-zhu).
+Professor, School of Computing at MSU
+
+[**Dr. Brock LaMeres, (Co-PI)**](https://ece.montana.edu/directory/faculty/1524289/brock-lameres).
+Professor, Electrical & Computer Engineering at MSU;
+Director, Montana Engineering Education Research Center (MEERC)
+
+[**Dr. Bryce Hughes, (Professional Development Co-Creator and Facilitator)**](https://www.montana.edu/education/directory/1793286/bryce-hughes).
+Associate Professor of Adult and Higher Education at MSU.
+
+**Dr. Susan Kelly, (Professional Development Co-Creator and Facilitator)**.
+Director of Empower Student Center at MSU
+
+**Donna Negaard**. Assistant Dean of the Graduate School at MSU
+
+<!-- ### Grant and Funding Information -->
+<!-- TODO: Add grant details and funding information -->
