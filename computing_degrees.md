@@ -23,13 +23,13 @@ Prospective students should follow the links below to learn more about the progr
 
 - [Computer Science --- minor, B.A., B.S., M.S., Ph.D.](https://www.cs.montana.edu/)
 - [Cybersecurity --- M.S.](https://www.montana.edu/cyber/degree-information/)
-- [IT Computer Network Technology --- certificate, A.A.S.](https://gallatin.montana.edu/academics/network-technology/)
+- [IT Computer Network Technology --- C.A.S., A.A.S.](https://gallatin.montana.edu/academics/network-technology/)
 
 ---
 
 ### University of Montana / Missoula College
 
-- [Computer Science --- certificate, minor, B.S., M.S., Ph.D.](https://www.umt.edu/academics/programs/computer-science/)
+- [Computer Science --- C.A.S., minor, B.S., M.S., Ph.D.](https://www.umt.edu/academics/programs/computer-science/)
 - [Information Technology & Cybersecurity --- A.A.S.](https://catalog.umt.edu/colleges-schools-programs/missoula-college/business-technology/information-technology-cybersecurity/)
 
 ---
@@ -47,7 +47,7 @@ Prospective students should follow the links below to learn more about the progr
 - [Computer Science --- minor, B.S.](https://www.mtech.edu/academics/programs/computer-science/)
 - [Software Engineering --- B.S.](https://www.mtech.edu/academics/programs/software-engineering/)
 - [Cybersecurity & Network Administration --- B.S.](https://m.mtech.edu/academics/programs/cybersecurity/)
-- [Computer Networks & Cybersecurity --- A.A.S.](https://www.mtech.edu/computer-science/index.html)
-- [Web Development & Administration --- A.A.S.](https://www.mtech.edu/computer-science/index.html)
+- [Computer Networks & Cybersecurity --- A.A.S.](https://www.mtech.edu/academics/programs/computer-networks-cybersecurity/index.html)
+- [Web Development & Administration --- A.A.S.](https://www.mtech.edu/webdevelopment/index.html)
 
 ---
