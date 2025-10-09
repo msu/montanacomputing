@@ -1,0 +1,11 @@
+# Jekyll build output
+_site/
+
+# Local config files
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS files
+.DS_Store
+Thumbs.db
