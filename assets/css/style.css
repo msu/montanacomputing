@@ -1,0 +1,207 @@
+---
+---
+
+/* Custom styles for Montana Computing Consortium */
+
+/* Override the default font with a more interesting one */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Use Inter for headings with different weights */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/* Code elements use JetBrains Mono */
+code, pre {
+    font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Navigation bar styles */
+/* Navigation bar styles */
+nav {
+    display: flex;
+    align-items: stretch; /* ensures links fill full height */
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    padding: 0; /* remove excess space */
+    border-top: 1px solid rgba(255,255,255,0.2);
+    height: 3.5rem; /* controls nav height */
+}
+
+/* Make links fill the full height and center text vertically */
+nav a {
+    display: flex;
+    align-items: center;         /* vertically centers text */
+    justify-content: center;     /* centers text horizontally if desired */
+    padding: 0 2rem;             /* horizontal padding only */
+    height: 100%;                /* fill nav bar vertically */
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.025em;
+    transition: all 0.3s ease;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+nav a:first-child {
+    border-left: none;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+nav a:active {
+    transform: translateY(0);
+}
+
+/* Add a subtle animation effect */
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+nav a:hover::before {
+    left: 100%;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Improve typography */
+p {
+    margin-bottom: 1.5rem;
+    color: #4a5568;
+}
+
+/* Link styling */
+main a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+main a:hover {
+    border-bottom-color: #667eea;
+    color: #764ba2;
+}
+
+/* Footer styling */
+footer {
+    background: #2d3748;
+    color: #a0aec0;
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    nav a {
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    
+    nav a:last-child {
+        border-bottom: none;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    nav a {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Add some visual interest to the home page */
+.welcome-section {
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    padding: 3rem 2rem;
+    margin: -2rem -2rem 2rem -2rem;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    color: #2d3748;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .welcome-section {
+        margin: -1rem -1rem 1rem -1rem;
+        padding: 2rem 1rem;
+    }
+    
+    .welcome-section h1 {
+        font-size: 2rem;
+    }
+}

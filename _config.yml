@@ -1,0 +1,12 @@
+title: Montana Computing Consortium
+email: eli.quist@student.montana.edu
+description: >- # This description will appear in your document <head> meta tag.
+  The official website for the Montana Computing Consortium.
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://montanacomputing.github.io" # The base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change this to a custom theme later, or remove it
+plugins:
+  - jekyll-feed
