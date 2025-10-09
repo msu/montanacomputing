@@ -19,8 +19,8 @@ MCC supports hands-on teaching, mentorship, and career opportunities that
 prepare the next generation of computing professionals to live 
 and work in Montana.
 
-If you are interested in finding out more about current computational science 
-programs and degrees throughout Montana, please visit the 
+If you are interested in finding out more about current computer science 
+programs and degrees at institutions throughout Montana, please visit the 
 [Degrees page](/degrees/).
 
 To learn more about the MCC, its mission, and its funding, please visit
