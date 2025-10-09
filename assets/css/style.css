@@ -1,37 +1,36 @@
----
----
+/* Custom styles for Montana Computing Consortium — MSU Theme Update */
 
-/* Custom styles for Montana Computing Consortium */
-
-/* Override the default font with a more interesting one */
+/* Font styles */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-weight: 400;
     line-height: 1.6;
+    color: #2d3748;
 }
 
-/* Use Inter for headings with different weights */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     letter-spacing: -0.025em;
+    color: #0b285f;
 }
 
 h1 {
     font-weight: 700;
 }
 
-/* Code elements use JetBrains Mono */
+/* Code */
 code, pre {
     font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
 }
 
-/* Header styles */
+/* Header */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0b285f 50%, #ffc82e 100%);
     color: white;
     padding: 0;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -46,32 +45,31 @@ header h1 {
     backdrop-filter: blur(10px);
 }
 
-/* Navigation bar styles */
-/* Navigation bar styles */
+/* Navigation Bar */
 nav {
     display: flex;
-    align-items: stretch; /* ensures links fill full height */
+    align-items: stretch;
     background: rgba(255,255,255,0.95);
     backdrop-filter: blur(10px);
-    padding: 0; /* remove excess space */
+    padding: 0;
     border-top: 1px solid rgba(255,255,255,0.2);
-    height: 3.5rem; /* controls nav height */
+    height: 3.5rem;
 }
 
-/* Make links fill the full height and center text vertically */
+/* Navigation Links */
 nav a {
     display: flex;
-    align-items: center;         /* vertically centers text */
-    justify-content: center;     /* centers text horizontally if desired */
-    padding: 0 2rem;             /* horizontal padding only */
-    height: 100%;                /* fill nav bar vertically */
-    color: #4a5568;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    height: 100%;
+    color: #0b285f;
     text-decoration: none;
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.025em;
     transition: all 0.3s ease;
-    border-right: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.08);
     position: relative;
     overflow: hidden;
 }
@@ -81,16 +79,16 @@ nav a:first-child {
 }
 
 nav a:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    background: linear-gradient(135deg, #0b285f 0%, #133c91 100%);
+    color: #ffc82e;
+    box-shadow: 0 4px 12px rgba(11, 40, 95, 0.3);
 }
 
 nav a:active {
     transform: translateY(0);
 }
 
-/* Add a subtle animation effect */
+/* Shimmer animation */
 nav a::before {
     content: '';
     position: absolute;
@@ -98,7 +96,7 @@ nav a::before {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
     transition: left 0.5s;
 }
 
@@ -106,7 +104,7 @@ nav a:hover::before {
     left: 100%;
 }
 
-/* Main content styling */
+/* Main Content */
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -114,73 +112,26 @@ main {
     flex: 1;
 }
 
-/* Improve typography */
 p {
     margin-bottom: 1.5rem;
-    color: #4a5568;
+    color: #3c4a68;
 }
 
-/* Link styling */
+/* Links */
 main a {
-    color: #667eea;
+    color: #0b285f;
     text-decoration: none;
     font-weight: 500;
     border-bottom: 2px solid transparent;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, color 0.3s ease;
 }
 
 main a:hover {
-    border-bottom-color: #667eea;
-    color: #764ba2;
+    border-bottom-color: #ffc82e;
+    color: #133c91;
 }
 
-/* Footer styling */
-footer {
-    background: #2d3748;
-    color: #a0aec0;
-    text-align: center;
-    padding: 2rem;
-    margin-top: auto;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    header h1 {
-        padding: 1rem;
-        font-size: 1.5rem;
-    }
-    
-    nav {
-        flex-direction: column;
-    }
-    
-    nav a {
-        border-right: none;
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-        text-align: center;
-    }
-    
-    nav a:last-child {
-        border-bottom: none;
-    }
-    
-    main {
-        padding: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.3rem;
-    }
-    
-    nav a {
-        padding: 0.8rem 1rem;
-        font-size: 0.9rem;
-    }
-}
-
-/* Add some visual interest to the home page */
+/* Welcome Section */
 .welcome-section {
     background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
     padding: 3rem 2rem;
@@ -190,18 +141,63 @@ footer {
 }
 
 .welcome-section h1 {
-    color: #2d3748;
+    color: #0b285f;
     margin-bottom: 1rem;
     font-size: 2.5rem;
 }
 
+/* Footer */
+footer {
+    background: #0b285f;
+    color: #d1d8e0;
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;
+    border-top: 2px solid #ffc82e;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
+    header h1 {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
     .welcome-section {
         margin: -1rem -1rem 1rem -1rem;
         padding: 2rem 1rem;
     }
-    
+
     .welcome-section h1 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    nav a {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
     }
 }
