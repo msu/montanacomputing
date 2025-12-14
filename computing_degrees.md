@@ -11,6 +11,14 @@ Prospective students should follow the links below to learn more about the progr
 
 ---
 
+### Carroll College
+
+- [Computer Science ---  minor, B.A.](https://www.carroll.edu/academics/program-finder/computer-science-information-systems/cs-major-minor)
+- [Computer Information Systems --- minor, B.A.](https://www.carroll.edu/academics/program-finder/computer-science-information-systems)
+- [Cybersecurity --- minor, B.A.](https://www.carroll.edu/academics/program-finder/cybersecurity)
+
+---
+
 ### Flathead Valley Community College
 
 - [Programming and Game Development --- A.A.S.](https://www.fvcc.edu/program/programming-and-game-development-aas)
@@ -27,21 +35,6 @@ Prospective students should follow the links below to learn more about the progr
 
 ---
 
-### University of Montana / Missoula College
-
-- [Computer Science --- C.A.S., minor, B.S., M.S., Ph.D.](https://www.umt.edu/academics/programs/computer-science/)
-- [Information Technology & Cybersecurity --- A.A.S.](https://catalog.umt.edu/colleges-schools-programs/missoula-college/business-technology/information-technology-cybersecurity/)
-
----
-
-### Carroll College
-
-- [Computer Science ---  minor, B.A.](https://www.carroll.edu/academics/program-finder/computer-science-information-systems/cs-major-minor)
-- [Computer Information Systems --- minor, B.A.](https://www.carroll.edu/academics/program-finder/computer-science-information-systems)
-- [Cybersecurity --- minor, B.A.](https://www.carroll.edu/academics/program-finder/cybersecurity)
-
----
-
 ### Montana Technological University
 
 - [Computer Science --- minor, B.S.](https://www.mtech.edu/academics/programs/computer-science/)
@@ -49,5 +42,12 @@ Prospective students should follow the links below to learn more about the progr
 - [Cybersecurity & Network Administration --- B.S.](https://m.mtech.edu/academics/programs/cybersecurity/)
 - [Computer Networks & Cybersecurity --- A.A.S.](https://www.mtech.edu/academics/programs/computer-networks-cybersecurity/index.html)
 - [Web Development & Administration --- A.A.S.](https://www.mtech.edu/webdevelopment/index.html)
+
+---
+
+### University of Montana / Missoula College
+
+- [Computer Science --- C.A.S., minor, B.S., M.S., Ph.D.](https://www.umt.edu/academics/programs/computer-science/)
+- [Information Technology & Cybersecurity --- A.A.S.](https://catalog.umt.edu/colleges-schools-programs/missoula-college/business-technology/information-technology-cybersecurity/)
 
 ---
