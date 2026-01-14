@@ -21,7 +21,7 @@ MCC is building a sustainable network to train the next generation of
 computer scientists and computing teachers who will drive innovation 
 and opportunity across Big Sky Country.
 
-### Team
+## Team
 
 [**Dr. Brittany Fasy, (PI)**](https://www.cs.montana.edu/directory/1812041/brittany-fasy). 
 Associate Professor, School of Computing at Montana State University (MSU)
@@ -44,5 +44,11 @@ Director of Empower Student Center at MSU
 
 **Donna Negaard**. Assistant Dean of the Graduate School at MSU
 
-<!-- ### Grant and Funding Information -->
-<!-- TODO: Add grant details and funding information -->
+## Grant and Funding Information
+
+This material is based upon work supported by the National Science Foundation under
+[Grant No. NSF DUE 2221684](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2221684).
+
+Any opinions, findings, and conclusions or recommendations expressed in this material are
+those of the author(s) and do not necessarily reflect the views of the National Science
+Foundation.
