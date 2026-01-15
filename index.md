@@ -24,4 +24,7 @@ programs and degrees at institutions throughout Montana, please visit the
 [Degrees page]({{ '/degrees/' | relative_url }}).
 
 To learn more about the MCC, its mission, and its funding, please visit
-the [About page]({{ '/about/' | relative_url }}). 
+the [About page]({{ '/about/' | relative_url }}).
+
+Feel free to [contact us]({{ '/contact/' | relative_url }}) with questions
+or general inquiries.
